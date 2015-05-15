@@ -25,5 +25,12 @@ body {
 	}
 
 	.ryu-ready {
-		background-image: url('http://i.imgur.com/H69TFES.png');
+		background-image: url('http://i.imgur.com/GzNjbyE.gifv');
+	}
+
+	.ryu-still {
+		background-image: url('http://i.imgur.com/H69TFES.png')
+	}
+	.ryu-throwing {
+		background-image: url('http://i.imgur.com/G36Accq.png');
 	}
