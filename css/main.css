@@ -13,29 +13,33 @@ body {
 	}
 	
 	}
-	.container, {
+	.container {
 		float: left;
 	}
 	.ryu {
 		width: 659px;
 		height: 494px;
 	}
-	 .ryu-ready, .ryu-still, .ryu-throwing {
-		width: 659px;
-		height: 494px;
-	}
+	
 	.ryu-ready, .ryu-throwing {
 		display: none;
 	}
 	
-	.ryu, .ryu-ready {
-		background-image: url('http://i.imgur.com/GzNjbyE.gifv');
+	.ryu-ready {
+		background-image: url('http://i.imgur.com/GzNjbyE.gif');
+		width: 659px;
+		height: 494px;
 	}
-	.main, .ryu-still {
-		background-image: url('http://i.imgur.com/H69TFES.png')
+	.ryu-still {
+		display: block;
+		background-image: url('http://i.imgur.com/H69TFES.png');
+		width: 659px;
+		height: 494px;
 	}
-	.ryu, .ryu-throwing {
+	.ryu-throwing {
 		background-image: url('http://i.imgur.com/G36Accq.png');
+		width: 659px;
+		height: 494px;
 	}
 	.ryu, .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
   background-repeat: no-repeat;
