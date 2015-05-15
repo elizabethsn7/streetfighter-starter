@@ -10,3 +10,20 @@ body {
 	position: relative;
 	z-index:1;
 	}
+	.ryu-container, .ryu {
+		float: left;
+		width: 659px;
+		height: 494px;
+	}
+
+	.ryu-ready, .ryu-still, .ryu-throwing {
+		width: 659px;
+		height: 494px;
+	}
+	.ryu-ready, .ryu-throwing {
+		display: none;
+	}
+
+	.ryu-ready {
+		background-image: url('http://i.imgur.com/H69TFES.png');
+	}
