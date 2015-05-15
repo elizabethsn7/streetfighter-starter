@@ -9,24 +9,15 @@ body {
 	height: 500px;
 	position: relative;
 	z-index:1;
-<<<<<<< HEAD
 	float: left;
-
 	}
 	
-	.ryu-container, .ryu {
-		width: 659px;
-		height: 494px;
-		float: left;
-=======
 	}
 	.ryu-container, .ryu {
 		float: left;
 		width: 659px;
 		height: 494px;
->>>>>>> d2cccb462b75eb1415ccd1143084c0490558691d
 	}
-
 	.ryu-ready, .ryu-still, .ryu-throwing {
 		width: 659px;
 		height: 494px;
@@ -34,26 +25,10 @@ body {
 	.ryu-ready, .ryu-throwing {
 		display: none;
 	}
-<<<<<<< HEAD
-	.ryu-ready {
-	background-image: url('http://i.imgur.com/L781UMd.gifv');
-}
 	
-	.ryu-still {
-  	background-image: url('http://i.imgur.com/313c7ZE.png');
-}
-
-	.ryu-throwing {
- 	 background-image: url('http://i.imgur.com/gT3ZoFx.png');
-}
-	.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
-	 background-repeat: no-repeat;
-=======
-
 	.ryu-ready {
 		background-image: url('http://i.imgur.com/GzNjbyE.gifv');
 	}
-
 	.ryu-still {
 		background-image: url('http://i.imgur.com/H69TFES.png')
 	}
@@ -71,5 +46,4 @@ body {
   float: left;
   position: absolute;
   z-index: 10;
->>>>>>> d2cccb462b75eb1415ccd1143084c0490558691d
 }
