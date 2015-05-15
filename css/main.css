@@ -9,4 +9,34 @@ body {
 	height: 500px;
 	position: relative;
 	z-index:1;
+	float: left;
+
 	}
+	
+	.ryu-container, .ryu {
+		width: 659px;
+		height: 494px;
+		float: left;
+	}
+
+	.ryu-ready, .ryu-still, .ryu-throwing {
+		width: 659px;
+		height: 494px;
+	}
+	.ryu-ready, .ryu-throwing {
+		display: none;
+	}
+	.ryu-ready {
+	background-image: url('http://i.imgur.com/L781UMd.gifv');
+}
+	
+	.ryu-still {
+  	background-image: url('http://i.imgur.com/313c7ZE.png');
+}
+
+	.ryu-throwing {
+ 	 background-image: url('http://i.imgur.com/gT3ZoFx.png');
+}
+	.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+	 background-repeat: no-repeat;
+}
