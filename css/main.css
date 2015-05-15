@@ -13,12 +13,14 @@ body {
 	}
 	
 	}
-	.ryu-container, .ryu {
+	.container, {
 		float: left;
+	}
+	.ryu {
 		width: 659px;
 		height: 494px;
 	}
-	.ryu-ready, .ryu-still, .ryu-throwing {
+	 .ryu-ready, .ryu-still, .ryu-throwing {
 		width: 659px;
 		height: 494px;
 	}
@@ -26,16 +28,16 @@ body {
 		display: none;
 	}
 	
-	.ryu-ready {
+	.ryu, .ryu-ready {
 		background-image: url('http://i.imgur.com/GzNjbyE.gifv');
 	}
-	.ryu-still {
+	.main, .ryu-still {
 		background-image: url('http://i.imgur.com/H69TFES.png')
 	}
-	.ryu-throwing {
+	.ryu, .ryu-throwing {
 		background-image: url('http://i.imgur.com/G36Accq.png');
 	}
-	.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+	.ryu, .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
   background-repeat: no-repeat;
 }
 .hadouken {
