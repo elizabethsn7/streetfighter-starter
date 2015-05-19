@@ -22,7 +22,7 @@ body {
 		height: 494px;
 	}
 	
-	.ryu-ready, .ryu-throwing {
+	.ryu-ready, .ryu-throwing, .ryu-cool {
 		display: none;
 	}
 	
@@ -57,17 +57,17 @@ body {
   float: left;
 }
 .ryu-cool {
-	background-image: url('../images/ry-cool.gif');
+	background-image: url('../images/ryu-cool.gif');
 	width: 659px;
 	height: 494px;
 }
-.how-to, p {
+.how-to {
 	font-size: 20px;
 	color: red;
-}
- p {
-	font-size: 20px;
-	color: red;
+	position: absolute;
+	top: 80px;
+	right: 100px;
+	width: 500px;
 }
 
 
