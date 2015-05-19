@@ -32,7 +32,7 @@ $( document ).ready(function() {
             }
     );
     	console.log("mousedown");
-})
+});
     $(".ryu").mouseup(function() {
         $(".ryu-throwing").hide();
         $(".ryu-ready").show();
@@ -47,7 +47,34 @@ $( document ).ready(function() {
   $('#hadouken-sound')[0].load();
   $('#hadouken-sound')[0].play();
     }
-     
-    });
+    $("document").keydown(function(e) {
+        if(e.which === 88) {
+            $(".ryu-cool").show();
+            $(".ryu-still").hide();
+            $(".ryu-throwing").hide();
+            $(".ryu-ready").hide();
+            console.log("keydown");
+        }
+
+    }).keyup(function(e) {
+        if(e.which ===88) {
+            $(".ryu-cool").hide();
+            $(".ryu-still").show();
+            $(".ryu-throwing").hide();
+            $(".ryu-ready").hide();
+            console.log("keyup");
+        }
+        
+    })
+});
+
+
+
+
+
+
+
+
+
 
 
