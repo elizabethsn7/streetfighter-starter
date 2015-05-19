@@ -42,7 +42,7 @@ body {
 		width: 659px;
 		height: 494px;
 	}
-	.ryu, .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+	.ryu, .hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
   background-repeat: no-repeat;
 }
 .hadouken {
@@ -55,5 +55,46 @@ body {
   z-index: 10;
   display: none;
   float: left;
-  
 }
+.ryu-cool {
+	background-image: url('../images/ry-cool.gif');
+	width: 659px;
+	height: 494px;
+}
+.how-to, p {
+	font-size: 20px;
+	color: red;
+}
+ p {
+	font-size: 20px;
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
