@@ -47,7 +47,8 @@ $( document ).ready(function() {
   $('#hadouken-sound')[0].load();
   $('#hadouken-sound')[0].play();
     }
-    $("document").keydown(function(e) {
+    $(document).keydown(function(e) {
+        console.log("test");
         if(e.which === 88) {
             $(".ryu-cool").show();
             $(".ryu-still").hide();
